@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Painel</title>
+  <link rel="stylesheet" href="painel.css" />
+</head>
+<body>
+  <div class="centro">
+    <div id="painel">
+      <h2>Senha Atual: <span id="senhaAtual">---</span></h2>
+      <h3>Últimas Chamadas</h3>
+      <ul id="ultimas"></ul>
+    </div>
+  </div>
+</body>
+<script src="painel.js"></script>
+  <script>
+  window.onload = function () {
+    getSenhaAtual();
+    setInterval(getSenhaAtual, 2000);
+  };
+</script>
+</html>

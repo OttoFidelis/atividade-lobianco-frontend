@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atendente</title>
+  <link rel="stylesheet" href="painel.css" />
+</head>
+<body>
+  <div class="centro">
+    <div id="atendente">
+      <h2>Fila de Senhas</h2>
+      <ul id="fila"></ul>
+      <br/>
+    </div>
+  </div>
+</body>
+<script src="painel.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    loadSenhas();
+    setInterval(loadSenhas, 2000);
+  });
+</script>
+</html>

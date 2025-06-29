@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#totem, #atendente, #painel {
+  background: #fff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 0.6rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+#senhaAtual {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+#carrossel {
+  background: #007bff;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
